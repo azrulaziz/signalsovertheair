@@ -2,10 +2,9 @@
 title: 'Multi AZ & read replica on AWS RDS'
 caption: 'Understanding what they are & their use case'
 author: 'Azrul Aziz'
-date: "2020-07-07"
+date: "2020-09-28"
 tag: 'aws'
 ---
-
 ![alt text](/awsrdslogo.png "docs")
 
 ### **Multi AZ**
@@ -15,9 +14,7 @@ AWS basically creates an exact copy of our database in standby and in a situatio
 
 ### **Read Replica**
 
-Setting up read replica allow us to have a read-only copy of our rds. We can have up to 5 copies of read replicas. It replicate asynchronously from the main database and at it is also possible to setup read replicas in multiple AZs. Each replica will have its own dns endpoint.
-
-![alt text](/docsincabscr.png "docs")
+Setting up read replica allow us to have a read-only copy of our rds. It replicate asynchronously from the primary database. We can have up to 5 copies of read replicas and each replica will have its own dns endpoint.
 
 #### **Use case**
 
