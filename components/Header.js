@@ -7,7 +7,7 @@ export default function Header() {
       <header className="flex items-center justify-between ">
         <div>
           <Link href="/">
-            <a className=" text-lg font-normal tracking-tighter">
+            <a className=" text-lg font-normal tracking-tighter ">
             <h1 className="flex p-1 px-2 leading-none text-3xl text-white bg-black font-bold tracking-tighter">signalsovertheair</h1>
             </a>
 

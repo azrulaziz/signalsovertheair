@@ -4,7 +4,7 @@ caption: 'Using Serverless Application Model(SAM) to start a serverless project 
 author: 'Azrul Aziz'
 tag: 'serverless'
 ---
-
+![alt text](/docsincabs.png "docs")
 The reason we need to create version for each function is to make deployment safer and rollback easier.
 If we dont create function alias, everytime we deploy an update, the new function will replace the current version of the function with no history of past versions kept around.
 

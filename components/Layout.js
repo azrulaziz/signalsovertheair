@@ -42,7 +42,7 @@ export default function Layout({tag, children, pageTitle, ...props}) {
             </a>
         </div>
 
-        <p className="text-light-gray">2020 © signalsovertheair // published by <a href="https://twitter.com/azrvlaziz" target="_blank" className="underline">azrulaziz</a></p>
+        <p className="text-light-gray">signalsovertheair // <a href="https://azrulaziz.com" target="_blank" className="underline">azrulaziz</a></p>
 
       </div>
     </>
